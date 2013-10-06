@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LevelContent>
+  <PointLight>
+    <Position>-2 3 0</Position>
+  </PointLight>
+  <PointLight>
+    <Position>-2 3 30</Position>
+  </PointLight>
+  <PointLight>
+    <Position>-2 3 15</Position>
+  </PointLight>
+  <Surface>
+    <Start>0 0 0</Start>
+    <Movement>0 0 0</Movement>
+    <XTiles>1</XTiles>
+    <YTiles>0</YTiles>
+    <ZTiles>4</ZTiles>
+    <TileSize>5</TileSize>
+    <Texture>CubeTexture</Texture>
+  </Surface>
+  <Surface>
+    <Start>2.5 2.5 0</Start>
+    <Movement>0 0 0</Movement>
+    <XTiles>0</XTiles>
+    <YTiles>1</YTiles>
+    <ZTiles>1</ZTiles>
+    <TileSize>5</TileSize>
+    <Texture>KeyATexture</Texture>
+  </Surface>
+  <Surface>
+    <Start>2.5 2.5 5</Start>
+    <Movement>0 0 0</Movement>
+    <XTiles>0</XTiles>
+    <YTiles>1</YTiles>
+    <ZTiles>1</ZTiles>
+    <TileSize>5</TileSize>
+    <Texture>KeyDTexture</Texture>
+  </Surface>
+  <Surface>
+    <Start>2.5 2.5 10</Start>
+    <Movement>0 0 0</Movement>
+    <XTiles>0</XTiles>
+    <YTiles>1</YTiles>
+    <ZTiles>1</ZTiles>
+    <TileSize>5</TileSize>
+    <Texture>KeyWTexture</Texture>
+  </Surface>
+  <Surface>
+    <Start>2.5 7.5 0</Start>
+    <Movement>0 0 0</Movement>
+    <XTiles>0</XTiles>
+    <YTiles>2</YTiles>
+    <ZTiles>3</ZTiles>
+    <TileSize>5</TileSize>
+    <Texture>CubeTexture</Texture>
+  </Surface>
+  <Surface>
+    <Start>-2.5 -2.5 0</Start>
+    <Movement>0 0 0</Movement>
+    <XTiles>0</XTiles>
+    <YTiles>1</YTiles>
+    <ZTiles>4</ZTiles>
+    <TileSize>5</TileSize>
+    <Texture>CubeTexture</Texture>
+  </Surface>
+  <Surface>
+    <Start>0 -2.5 17.5</Start>
+    <Movement>0 0 0</Movement>
+    <XTiles>1</XTiles>
+    <YTiles>1</YTiles>
+    <ZTiles>0</ZTiles>
+    <TileSize>5</TileSize>
+    <Texture>CubeTexture</Texture>
+  </Surface>
+  <Surface>
+    <Start>0 -2.5 -2.5</Start>
+    <Movement>0 0 0</Movement>
+    <XTiles>1</XTiles>
+    <YTiles>4</YTiles>
+    <ZTiles>0</ZTiles>
+    <TileSize>5</TileSize>
+    <Texture>CubeTexture</Texture>
+  </Surface>
+  <Surface>
+    <Start>2.5 2.5 15</Start>
+    <Movement>0 0 0</Movement>
+    <XTiles>0</XTiles>
+    <YTiles>3</YTiles>
+    <ZTiles>4</ZTiles>
+    <TileSize>5</TileSize>
+    <Texture>CubeTexture</Texture>
+  </Surface>
+  <Surface>
+    <Start>2.5 -2.5 20</Start>
+    <Movement>0 0 0</Movement>
+    <XTiles>0</XTiles>
+    <YTiles>1</YTiles>
+    <ZTiles>1</ZTiles>
+    <TileSize>5</TileSize>
+    <Texture>CubeTexture</Texture>
+  </Surface>
+  <Surface>
+    <Start>0 0 25</Start>
+    <Movement>0 0 0</Movement>
+    <XTiles>1</XTiles>
+    <YTiles>0</YTiles>
+    <ZTiles>1</ZTiles>
+    <TileSize>5</TileSize>
+    <Texture>CubeTexture</Texture>
+  </Surface>
+  <SpikedSurface>
+    <Start>0 -5 20</Start>
+    <Movement>0 0 0</Movement>
+    <XTiles>1</XTiles>
+    <YTiles>0</YTiles>
+    <ZTiles>1</ZTiles>
+    <TileSize>5</TileSize>
+    <Texture>CubeTexture</Texture>
+  </SpikedSurface>
+  <Surface>
+    <Start>0 -2.5 22.5</Start>
+    <Movement>0 0 0</Movement>
+    <XTiles>1</XTiles>
+    <YTiles>1</YTiles>
+    <ZTiles>0</ZTiles>
+    <TileSize>5</TileSize>
+    <Texture>CubeTexture</Texture>
+  </Surface>
+  <Surface>
+    <Start>-2.5 -2.5 25</Start>
+    <Movement>0 0 0</Movement>
+    <XTiles>0</XTiles>
+    <YTiles>1</YTiles>
+    <ZTiles>2</ZTiles>
+    <TileSize>5</TileSize>
+    <Texture>CubeTexture</Texture>
+  </Surface>
+  <Surface>
+    <Start>0 2.5 32.5</Start>
+    <Movement>0 0 0</Movement>
+    <XTiles>1</XTiles>
+    <YTiles>3</YTiles>
+    <ZTiles>0</ZTiles>
+    <TileSize>5</TileSize>
+    <Texture>CubeTexture</Texture>
+  </Surface>
+  <Surface>
+    <Start>0 15 0</Start>
+    <Movement>0 0 0</Movement>
+    <XTiles>1</XTiles>
+    <YTiles>0</YTiles>
+    <ZTiles>7</ZTiles>
+    <TileSize>5</TileSize>
+    <Texture>CubeTexture</Texture>
+  </Surface>
+  <WinSurface>
+    <Start>0 0 30</Start>
+    <Movement>0 0 0</Movement>
+    <XTiles>1</XTiles>
+    <YTiles>0</YTiles>
+    <ZTiles>1</ZTiles>
+    <TileSize>5</TileSize>
+    <Texture>CubeTexture</Texture>
+  </WinSurface>
+</LevelContent>
