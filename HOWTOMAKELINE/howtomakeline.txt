@@ -1,0 +1,8 @@
+sf::Vertex vertices[] = 
+    {
+        sf::Vertex(sf::Vector2f( 175, 0), sf::Color::Red, sf::Vector2f(0,0)),
+        sf::Vertex(sf::Vector2f( 175, 480), sf::Color::Red, sf::Vector2f(0,0))
+    };
+    
+    
+    window.draw(vertices, 2, sf::Lines);
