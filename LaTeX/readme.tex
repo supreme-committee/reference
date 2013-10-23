@@ -1,0 +1,50 @@
+\documentclass[11pt]{article}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage[margin=1in]{geometry}
+\begin{document}
+
+\begin{center}
+	CMPS 109 -- Homework 5 -- Hex with Monte Carlo AI
+\end{center}
+
+\paragraph{Compilation Instructions: } \hspace{0pt} \\
+	I have included a \texttt{makefile} for you. Just calling \texttt{make} will 
+	compile with your machines default version of \texttt{g++}. \texttt{make all}
+	will recompile everything. Calling \texttt{make c11}
+	will compile everything using the \texttt{-std=c++11} flag. I included a
+	threading option which I will explain later. It requires a \texttt{c++11} compliant compiler. I have
+	tested these compilation options on my personal computer and on the unix server.
+	(Note: the c++11 and threading does not work on the unix server so do not try that on unix) \\
+	Compiler: \texttt{g++ (MacPorts gcc48 4.8.0\_0) 4.8.0} \\
+	Hardware: \texttt{2.4 GHz i5 2Core}
+
+\paragraph{Input: } \hspace{0pt} \\
+	There is no command line parameters. You can change the board size in \texttt{main()}
+	and the number of simulations in \texttt{hex.cpp} at the top of the file. \\
+	Each user turn will take 2 values, an $(x,y)$ coordinate.
+	
+\paragraph{Monte Carlo AI Description: } \hspace{0pt} \\
+	 My implementation of the AI uses a Monte Carlo Method. For every un-played spot,
+	  make a copy and make a move on that board. Now I have a copy 
+	 of the original board with one more move for every un-played spot on the original board.
+	 Now for each of those I randomly generate the rest of the board and test who wins. I do this
+	 random generation the amount of times specified in \texttt{hex.cpp} as \texttt{SIMSPERMOVE}.
+	 All the way, I am keeping track of the amount of wins for the board with the move. \\\\
+	 The theory being, a certain move on a certain board will give the computer an innate advantage 
+	 in the game. This advantage will show itself in the random generation.
+	 
+\paragraph{My implementation of threads} \hspace{0pt} \\
+	Essentially what I have implemented, is that each board
+	on which we are doing simulations (one for each un-played space) will have its own thread.\\\\
+	
+	\noindent As I noted earlier this requires some special compilation instructions. First of all you 
+	need a \texttt{c++11} compliant compiler. Personally I used \texttt{g++ 4.8} on my machine.
+	Furthermore, I put in some preprocessor directives so that we can choose wether to 
+	implement threading or not. To enable threading, uncomment out \texttt{\#define C11} at the
+	top of \texttt{hex.cpp}. Then compile with the \texttt{-std=c++11} flag on \texttt{g++} by 
+	running \texttt{make c11}. 
+	
+	 
+	 
+\end{document}
